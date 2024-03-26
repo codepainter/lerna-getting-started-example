@@ -8,9 +8,4 @@ export function Footer() {
     );
 }
 
-// add comment
-// add more comment
-// add even more comment
-
-// add a feat comment
-// add another feat commenta
+// delete all comments

@@ -5,9 +5,16 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^7.1.5"
+    "@semantic-release/gitlab-config": "^14.0.1",
+    "lerna": "^7.1.5",
+    "semantic-release": "^23.0.6"
   },
   "volta": {
     "node": "18.17.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }

@@ -16,11 +16,13 @@
   "release": {
     "branches": [
       "main"
-    ]
+    ],
+    "noCi": true
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  }
+  },
+  "version": "0.1.0"
 }

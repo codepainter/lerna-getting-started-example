@@ -6,6 +6,7 @@
   ],
   "devDependencies": {
     "@semantic-release/gitlab-config": "^14.0.1",
+    "cz-lerna-changelog": "^2.0.3",
     "lerna": "^7.1.5",
     "semantic-release": "^23.0.6"
   },
@@ -16,5 +17,10 @@
     "branches": [
       "main"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
